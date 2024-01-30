@@ -1,0 +1,14 @@
+package statickeyword.java.com;
+//another example for static method that perform calculation 
+public class Calculate {
+static int cube(int x) 
+{
+	return x*x*x;
+	
+}
+	public static void main(String[] args) {
+		int result = Calculate.cube(5);
+		System.out.println(result);
+	}
+
+}
